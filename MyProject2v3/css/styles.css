@@ -1,0 +1,152 @@
+/* styles reset */
+body,h1,h2,h3,p,ul,ol,li{
+
+		margin: 0;
+		padding: 0;
+}
+
+
+#container{
+	background-color: #CECECE;
+	width: 1175px;
+	margin: 0 auto;
+
+}
+
+header{
+	width: 96%;
+	background-color: #EEEEEE;
+	min-height: 300px;
+	margin: 1% 1% 1%;
+	position: relative;
+	
+}
+
+#MainContent{
+	width: 96%;
+	min-height: 370px;
+	background-color: #9E9892;
+	margin: 1% 1% 1%;
+}
+
+#LC{
+	width: 54%;
+	min-height: 358px;
+	background-color: #EEEEEE;
+	float: left;
+	font-size: 18px;
+	
+}
+
+.cycle-slideshow{
+
+	width: 46%;
+	min-height: 98px;
+	float: right;
+	margin-bottom: 35px;
+
+}
+
+.cycle-slide{
+
+	float: right;
+	margin-left: 25px;
+
+}
+
+
+footer{
+	width: 96%;
+	background-color: #EEEEEE;
+	min-height: 110px;
+	margin: 1% 1% 1%;
+	position: relative;
+	font-size: 18px;
+}
+
+
+#vwlogo{
+	position: relative; 
+	
+	margin-left: 225px;
+
+}
+
+#aselogo{
+	position: relative; 
+	margin-left: 28px;
+
+}
+
+#FootContact{
+	position: relative; 
+	margin-left: 264px;
+	width: 200px;
+	float: left;
+
+}
+
+/* Nav Area*/
+nav{
+	position: relative;
+	left: 0;
+	bottom: 10px;
+	font-size: 12px;
+}
+
+nav ul li{
+		position: relative;
+		float: left;
+		list-style: none;
+		
+}
+
+nav ul li a{
+		background-color: black;
+		color: white;
+		padding: 10px 20px;	
+		border-left: 2px solid;
+		
+}
+
+
+
+
+
+
+
+/* Socila link styles */
+#SocialLinks{
+
+
+}
+#SocialLinks li{
+	float: left;
+	list-style: none;
+	margin-left: 5px;
+
+}
+#SocialLinks li a{
+	background: url("../images/icons2.png");
+	display: inline-block; 
+	width: 76px;
+	height: 70px;
+	text-indent: -9999px;
+}
+#SocialLinks li:first-child a:hover{
+	background-position: 0 -85px;
+}
+#SocialLinks li:nth-child(2) a{
+	background-position: -688px 0;
+
+}
+#SocialLinks li:nth-child(2) a:hover{
+	background-position: -670px -85px;
+}
+#SocialLinks li:nth-child(3) a{
+	width: 60px;
+	background-position: -350px 0;
+}
+#SocialLinks li:nth-child(3) a:hover{
+	background-position: -350px -85px;
+}
