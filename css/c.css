@@ -1,0 +1,12 @@
+
+
+.demo {
+text-align: center;
+height: 100%
+}
+*:not(pre) {
+vertical-align: top;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+}

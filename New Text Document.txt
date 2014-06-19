@@ -1,0 +1,58 @@
+
+
+Client Testimonials
+
+I have been bringing my bug here for years. The longevity of my car is directly related to this shop. Richard Paul
+
+Craig and his crew know classic VW's. Not only are they the best repair shop in town, they are one one of the few complete restoration centers on the west coast. Dean Jones
+
+Have a problem Craig can fix it. Need a hard to find part, Craig will find it, enough said. Larry Linville
+
+
+
+
+test html
+
+<p>
+
+			<h2>Client Testimonials</h2>
+			
+			<p class="Test">I have been bringing my
+			bug here for years.  The longevity of my car
+			is directly related to this shop.<em>  Richard Paul</em></p>
+			
+			<p class="Test">Craig and his crew know classic VW's. Not only are they the best repair shop in town, they are one one of the few complete restoration centers on the west coast.<em>  Dean Jones</em></p>
+			
+			<p class="Test">Have a problem Craig can fix it.  Need a hard to find part, Craig will find it, enough said.<em>  Larry Linville</em></p>
+
+
+test css
+
+.Test{
+	margin: 15px;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+			</p>
+
+
+
+
+			<img id="expand" alt="It's a bug" src="images/expand.png" width="70" height="70">
+
+
+Welcome to Classic VW's 
+
+We sell, service and restore VW bugs, busses, campers and Karmann Ghia.  We have the largest classic VW parts department in the Central Valley.
+
+Check our restore page for this months restoration.  We have a prior restorations VW's for sale on our sales page.  Check out and join our social media pages to receive update about our service department specials.  
+
+
+
