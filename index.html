@@ -1,112 +1,181 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
-	
+	<meta charset="UTF-8">
+	<meta name="keywords" content="web development, web security, web hosting, Fresno web development, Fresno California, web design, software design, systems support">
+	<title>CDT Designs</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Claissic VW's Home Page</title>
 </head>
 <body>
-	<div id="container">
-		<header>
+
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#"><strong>CDT Designs</strong></a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+	        <li><a href="#about">About</a></li>
+	        <li><a href="#bottom">Contact</a></li>
+	        
+	      </ul>
+	      
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	<div class="jumbotron">
+	<div class="container text-center text-uppercase">
+		<h2 class="jumboText"><em><strong>Craig D. Travis</em></strong></h2>
 		
-		<img id="HeadImage"alt="It's a bug" src="images/vwbus3logo.jpg" width="1125" height="280" style="float:left">
+		<h2 class="jumboText"><em><strong>Design, Code, & Systems</em></strong></h2>
+	</div>
+	</div>  <!-- end of jumbotron -->
+
+<!-- about section
+ -->
+
+	<div class="container" id="about">
 		
-			<nav>
-				<ul>
-				<li><a href="Index.html">Home</a></li>
-				
 
-					<ul>
-
-					<li><a href"#">Repairs</a></li>
-					<li><a href="restore.html">Restore</a></li>
-					
-
-					</ul>
-
-				<li><a href="Sales.html">
-				</html>Sales</a></li>
-				<li><a href="Contact.html">Contact</a>
-				</li>
-			</ul>
-			</nav>
-
-	</header>
-
-		<div id="MainContent">
-
-			<div id="LC">
+		<div class="container">
 			
-			<div id="LCtextBox">
-	<h3 id="h3Text">Welcome to Classic VW's</h3>
+			<div class="row show grid">  <!-- Responsive headshot -->
+			  <div class="col-xs-4 col-sm-2 headshot show-grid">
+				<img class="img-responsive img-box img-rounded CTpic"src="images/traviscraig1.png" alt="Picture of Craig Travis Front end web dev">
+			  </div>
 
-			<p id="MainPageText">
-			We sell, service and restore VW bugs, busses, campers and Karmann Ghia.
-			We have the largest classic VW parts department in the Central Valley. </p>
+			 <div class="col-xs-8 col-sm-10 show-grid">
 
-			<p id="MainPageText">Check our restore page for this months restoration.  We have a prior restorations VW's for sale on our sales page.  Check out and join our social media pages to receive update about our service department specials. </p>
-
-
-			</div>
-
-			<img id="expand" alt="bug expanded" src="images/expand.png" width="240" height="200">
-
-			<img id="OilChangePic" alt="bug ex" src="images/oilchange.jpg" width="140" height="100">
-				
-			</div>
-
-					<div class="cycle-slideshow"
-				 	data-cycle-fx="scrollHorz"
-				 	data-cycle-timeout="6000"
-				    data-cycle-pause-on-hover="true"
-				    data-cycle-speed="400">
+			 	<p id="aboutText"><em>While responsive web design is fairly new and you have your choice of quality designers, I offer over twenty years of experience with a wide variety of computer systems for small, mid-level and large companies.  Not only am I a web developer, I’m also a network and security professional that can keep your site up, running and secure.</em></p>
+			 	<p id="aboutText"><em>When choosing your next web developer make sure to ask about your new site’s hosting,  backup, restoration, and security  procedures.  I believe I have the experience to handle not just your websites designs but it's life on the web.</em></p>
 
 
-				    <img src="images/vw1.jpg">
-				    <img src="images/vw2.jpg">
-				    <img src="images/vw3.jpg">
-				    <img src="images/shop.jpg">
-				    <img src="images/vw3.jpg">
-					</div>
-
-					<div class="cycle-pager"></div>
+			  </div>
+		</div>
 
 
-				
-			</div>
 
-			<footer>
+		</div>
 			
-				<ul id="SocialLinks">
-						<li><a href="#">Facebook</a></li>
-						<li><a href="#">Twitter</a></li>
-						<li><a href="#">LinkedIN</a></li>
+			<div class="row show-grid moreInfo">
+				<div class="col-sm-4">
+					<div class="row show-grid">
+						<div class="row show-grid">
+							<div class="col-xs-6 col-sm-12 img-box">
+								<a href="#"><img class="img-responsive img-box center-block"src="images/idea.jpg" alt="Picture of Craig Travis Front end web dev"></a>
 
-					</ul>
-
-					<div id="FootContact">
-					<P><strong>Classic VW's</strong></P><p>559-492-7255</p>
-
-
-					<p>1434 Front Street</p>
-					<p>Fresno, CA 93705</p>
-					<p>info@classicvw.com</p>
-					<p>Classic VW's All Rights Reserved.</p>
+							</div>
+							<div class="col-xs-6 col-sm-12 sellText">
+								<h4 class="text-center"><a href="#">Bright Ideas!</a></h4>
+							<p>Starting with a brainstorm session we will come up a look and feel for your website. Already have a website? We can updated it and make it mobile friendly.</p>
+							</div>	
+						</div>
 
 					</div>
 
+				</div>  <!-- End of Item one -->
 
-				<img id="vwlogo" alt="It's a bug" src="images/vwcclogo.png" width="230" height="80" style="float:left">
-				<img id="aselogo" alt="It's a bug" src="images/ase.jpg" width="70" height="70" style="float:left">
+				<div class="col-sm-4">
+					<div class="row show-grid">
+						<div class="row show-grid">
+							<div class="col-xs-6 col-sm-12 img-box">
+								<a href="#"><img class="img-responsive img-box center-block"src="images/design1.jpg" alt="Picture of Craig Travis Front end web dev"></a>
 
-		</footer>
-		
+							</div>
+							<div class="col-xs-6 col-sm-12 sellText">
+								<h4 class="text-center"><a href="#">Design</a></h4>
+							<p>Our staff will work on the wireframe design of your site and work woth your staff during the approval process.</p>
+							</div>	
+						</div>
+
+					</div>
+
+				</div>  <!-- End of Item Two -->
+
+				<div class="col-sm-4">
+					<div class="row show-grid">
+						<div class="row show-grid">
+							<div class="col-xs-6 col-sm-12 img-box">
+								<a href="#"><img class="img-responsive img-box center-block"src="images/mobile1.jpg" alt="Picture of Craig Travis Front end web dev"></a>
+
+							</div>
+							<div class="col-xs-6 col-sm-12 sellText">
+								<h4 class="text-center"><a href="#">Build</a></h4>
+							<p>Our team will create your site and make it mobile ready to get your business website to users on the go.</p>
+							</div>	
+						</div>
+
+					</div>
+
+				</div>  <!-- End of ITem Three -->
+
+			</div>  <!-- End of three column row -->
+
+
+
 
 		</div>
 
+	
+
+<!-- 	Footer Section -->
+	<div class="container-fluid footer" id="bottom">
+		<div class="row contact show-foot">
+		
+	 		<div class=" col-md-4 social">
+	  	        <center>
+	  	            <a href="https://www.facebook.com/craig.travis.161" target="_blank"><i class="fa fa-facebook fa-3x"></i></a>
+	  	            <a href="http://twitter.com/craig_travis" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+	  	            <a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
+	  	            
+	  	        </center>
+	  	    </div>
+
+	  	    	<div class="col-md-4">
+	  	    		<center>
+	  	    			<p class="contactInfo">559-492-7244</p>
+						<p class="contactInfo">craig@cdtravis.com</p>
+						
+	  	    		</center>
+
+
+				</div>
+
+	  	    
+	  	    	<div class="col-md-4">
+	  	    		<center>
+	  	    			<p class="contactInfo">2210 San Joaquin St Suite #201</p>
+						<p class="contactInfo">Fresno, CA 93721</p>
+	  	    		</center>
+
+
+			</div>
+
+			
+		</div>  <!-- End of Footer section -->
+	</div>
+
+<!-- Javascript links -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+
+<!-- End of Javascript Links  -->
 </body>
+
 
 </html>

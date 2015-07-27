@@ -1,350 +1,240 @@
-/* styles reset */
-body,h1,h2,h3,p,ul,ol,li{
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic|Open+Sans:400italic,400|Rock+Salt);
+/*css stylesheets*/
 
-		margin: 0;
-		padding: 0;
+
+
+/*===  Nav ===*/
+
+.navbar {
+	margin-bottom: 4px;
 }
 
-
-#container{
-	background-color: #514E4F;
-	width: 1160px;
-	margin: 0 auto;
-	border: none;
-	border: 2px solid;
-    border-radius: 25px;
-   background-image: url("http://www.wildtextures.com/wp-content/uploads/wildtextures-perforated-leather-seamless-texture-pattern.png");
-
-
-}
-
-header{
-	width: 96%;
-	background-color: #514E4F;
-	min-height: 300px;
-	margin: 1% 1% 1%;
-	position: relative;
-	border: none;
-	 background-image: url("http://www.wildtextures.com/wp-content/uploads/wildtextures-perforated-leather-seamless-texture-pattern.png");
-	
-}
-
-#HeadImage{
-	border: 2px solid;
-    border-radius: 10px;
+.navbar-default .navbar-brand {  /*Navbar logo*/
+  color: #333333;
+  font-family: 'Rock Salt', Sans-Serif;
+  text-shadow: .5x .5px 2px #0a0a0a;
+  font-size: 20px;
 
 }
 
-#MainContent{
-	width: 97%;
-	min-height: 363px;
-	background-color: #514E4F;
-	margin: 1% 1% 2.5%;
-	
-	border: 2px none;
-    border-radius: 10px;
-     background-image: url("http://www.wildtextures.com/wp-content/uploads/wildtextures-perforated-leather-seamless-texture-pattern.png");
+.navbar-default .navbar-nav>li>a {
+	color: #333333;
+	text-shadow: .5x .5px 1px #0a0a0a;
+	font-size: 15px;	
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #333333;
+	text-shadow: .5px .5px 1px #0a0a0a;
+	font-size: 15px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #A9A9A9;
+
+
 
 }
 
-#LC{
-	width: 53%;
-	height: 360px;
-	background-color: #C2CECA;
-	float: left;
-	font-size: 18px;
-	border: 2px solid;
-    border-radius: 10px;
-}	
-#LCtextBox{
-	width: 50%;
-	min-height: 80%;
-	position: relative;
+.jumboText {
+	margin-top: 5px;
+}
+
+body {
+	background-color: #D9DDDB;
+}
+
+/*=== jumbotron  ===*/
+
+.jumbotron {
+	background-image: url("../images/hero-bw2.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	margin-top: 5px;
+	padding-top: 100px;
+
+}
+
+h2 {
+	font-family: 'Open Sans Italic' serif;
+
+}
+
+.show-grid {
+	background-color: #DDDDDD;
+	border: solid 5px rgba(211,196,196, .5);
+	padding: 10px;
+	height: auto;
+}
+
+#about  {
+	min-height: 500px;  /*used to make the scroll pages the same size  aded to 
+	pages with minimum content*/
+}
+
+.headshot {
+	padding-bottom: 50px;
+	padding-right: 20px;
+	padding-left: 5px;
+}
+
+.img-rounded {
+  border-radius: 100px;
+}
+
+#about {
+	padding-bottom: 15px;
+}
+
+#aboutText {
+	font-family: 'Source Sans Pro', Sans-Serif;
+	font-size: 19px;
+	margin-right: 5px;  
+}
+
+.img-box {
+	border-radius: 106px;
+}
+
+
+.moreInfo {
+	padding-top: 15px;
 	margin-left: 10px;
-	margin-top: 10px;
-	border: 0px solid;
-    border-radius: 10px;
+}
+
+a {
+	color: #6a88a5;
+}
+.services {
+	height: 400px;
+}
+
+/*.footer {
+
+	height: 100px;
+}*/
+
+.show-foot div {
+	background-color: #F8F8F8;
+	/*border: solid 5px rgba(211,196,196, .5);*/
+	padding: 10px;
+	height: auto;
+}
+
+/*===  Social Icons  ===*/
+
+
+.social-icons {
 	
 }
 
-#h3Text{
+center {
+	padding-top: 10px;
+}
+.fa {  /*this is for font style of the icon*/
+    /*background-color: rgba(141,198,63,9);*/
+    /*border: 3px solid #bebebe;
+    border-radius: 206px;*/
+    font-size: 2em;
+    margin: 0px;
+    padding: 0px;
+    width: 42px;
+    color: #333333;  /*social inside font color*/
+}
 
+.fa:hover {
+   /* background-color: #D0D1D5;
+    border: 3px solid #bebebe;*/
+    color: #A9A9A9;
+    text-shadow: 2px 2px #6a88a5;
+
+}
+
+.fa-facebook {
+/*    background-color: #45609D; */  /*this is blue from the facebook webpage */
+}
+
+.fa-twitter {
+    /*background-color: #3366CC;*/  /*this is sky blue from the twitter web page */
+}
+
+.fa-linkedin {
+    /*background-color: #0274B3;*/  /*this is a blue from the Instagram web page */
+}
+
+.phoneNumber {
 	text-align: center;
-}
-
-#MainPageText{
-
-	margin: 3px;
-	padding: 6px;
 
 }
 
-#expand{
-	position: relative;
-	float: right;
-	bottom: 289px;
-	right:26px;
-	border: 0px solid;
-    border-radius: 10px;
-}
-
-#OilChangePic{
-position: relative;
-	float: right;
-	border: 0px solid;
-    border-radius: 10px;
-    bottom: 67px;
-	right: -165px;
-
-}
-
-.cycle-slideshow{
-
-	width: 46%;
-	min-height: 95px;
-	float: right;
-	margin-bottom: 10px;
-
-}
-
-.cycle-slide{
-
-	float: right;
-	margin-left: 38px;
-	border: 2px solid;
-    border-radius: 10px;
-
-}
-
-#RC{
-
-	height: 250px;
-	width: 43%;
-	border: 2px solid;
-
-
-}
-
-
-
-
-
-
-
-footer{
-	width: 97%;
-	background-color: #C2CECA;
-	min-height: 102px;
-	margin: 0% 1% 1% 12px;
-	position: relative;
-	font-size: 18px;
-	border: 2px solid;
-    border-radius: 10px;
-
-}
-
-#vwlogo{
-	position: relative; 
-	
-	margin-left: 104px;
-	margin-top: 14px;
-	border: none;
-
-}
-
-#aselogo{
-	position: relative; 
-	margin-left: 28px;
-	border: none;
-	margin-top: 14px;
-
-}
-
-#FootContact{
-	position: relative; 
-	margin-left: 225px;
-	margin-top: 3px;
-	width: 200px;
-	float: left;
-	border: none;
-	font-size: 13px;
-		text-align: center;
-
-}
-
-/* Nav Area*/
-nav{
-	position: relative;
-	left: 0;
-	bottom: -1px;
-	font-size: 18px;
-	margin-left: 2px;
-
-	
-    	border-radius: 10px;
-
-}
-
-nav ul li{
-		position: relative;
-		float: left;
-		list-style: none;
-		text-decoration: underline;
-		
-		
-}
-
-nav ul li a{
-		background-color: black;
-		color: #E6EAE9;
-		padding: 9px 33px;	
-		border-left: 1px solid;
-		box-shadow: 0 0 10px 0 white inset;
-		border: 2px solid;
-    	border-radius: 5px;
-		
-}
-
-nav ul li a:hover{
-	background-color: #E6EAE9;
-	color: #000000;
-
-}
-
-nav ul li ul li{
-border-left: 2px solid;
-
-}
-
-li a{
-	text-decoration: none;
-}
-
-/* Sub Level Nav */
-
-
-/* Socila link styles */
-#SocialLinks{
-
-
-}
-#SocialLinks li{
-	float: left;
-	list-style: none;
-	margin-left: 5px;
-
-}
-#SocialLinks li a{
-	background: url("../images/icons2.png");
-	display: inline-block; 
-	width: 76px;
-	height: 70px;
-	text-indent: -9999px;
-	border-radius: 10px;
-	margin-top: 7px;
-
-}
-#SocialLinks li:first-child a:hover{
-	background-position: 0 -85px;
-}
-#SocialLinks li:nth-child(2) a{
-	background-position: -688px 0;
-
-}
-#SocialLinks li:nth-child(2) a:hover{
-	background-position: -670px -85px;
-}
-#SocialLinks li:nth-child(3) a{
-	width: 60px;
-	background-position: -350px 0;
-}
-#SocialLinks li:nth-child(3) a:hover{
-	background-position: -350px -85px;
-}
-
-
-
-/* Table Styles */
-
-table{
-	background-color: #000;
-	color: #fff;
-	border: 1px solid #eee;
-	width: 92%;
-	margin: 2px 2px 2px 2px;
+.email {
 	text-align: center;
-}
-table tr:nth-child(odd){
-	background-color: #ccc;
-	color: #000;
-}
-
-thead{
-
-
-}
-
-th{
-	background-color: #fff;
-	color: #000;
-	text-transform: uppercase;
 	
 }
-th, td{
-	border-bottom: 1px solid #ccc;
-	text-align: center;
+
+.contact {
+	height: 75px;
+	margin-top: 5px;
 }
 
- td:nth-child(3){
-
-	text-align: right;
+.contactInfo {
+	margin: 2px;
 }
 
+/*===  media queries  ===*/
 
-
-
-
-
-
-
-
-/* Restore Page */
-
-
-#rest1{
-
-position: relative;
-	float: right;
-	bottom: 251px;
-	right:11px;
-	border: 0px solid;
-    border-radius: 10px;
+@media screen and (max-width: 360px) {
+    
+    /*.headshot {
+	    margin: 15px;	
+		padding-bottom: 500px;
+		padding-right: 50px;
+		padding-left: 20px;
+		padding-top: 30px;*/
 
 }
 
 
-
-/* Contact Page*/
-
-#CarShow{
-
-	float: right;
-
-	position: relative;
-
-height: 25px;
-width: 466px;
-border: 2px solid;
-border-radius: 5px;
-background-color: #C2CECA;
-margin: 10px 1px 1px 10px;
-bottom: 10px;
-right: -2px;
-text-align: center;
-
-
+@media screen and (max-width: 768px) {
+    
+   /* .headshot {
+	    margin: 15px;	
+		padding-bottom: 100px;
+		padding-right: 55px;
+		padding-left: 55px;*/
 
 
 }
 
+
+.sellText {
+	margin-top: 12px;
+}
+
+    h2 {
+      font-size: 18px;  
+    }
+
+	.fa-3x {
+    font-size: 2em;
+}
+	#aboutText	{
+		font-size: 18px;
+	}
+
+
+}
+
+@media screen and (min-width: 1240px) {
+
+	.headshot {
+		padding-bottom: 15px;
+	}
+	.jumbotron {
+		padding-top: 50px;
+	}
+
+
+}
 
