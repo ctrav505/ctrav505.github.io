@@ -11,7 +11,7 @@
 
 .navbar-default .navbar-brand {  /*Navbar logo*/
   color: #333333;
-  font-family: 'Rock Salt', Sans-Serif;
+  font-family: 'Rock Salt', Cursive;
   text-shadow: .5x .5px 2px #0a0a0a;
   font-size: 21px;
 
@@ -91,7 +91,8 @@ h2 {
 }
 
 #about {
-	padding-bottom: 15px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #aboutText {
@@ -103,6 +104,11 @@ h2 {
 .img-box {
 	border-radius: 106px;
 }
+
+img:hover {
+	box-shadow: 4px 4px 4px #888888;
+}
+
 
 
 .moreInfo {
@@ -125,10 +131,10 @@ a {
 .footer {
 
 	background-color: #F8F8F8;
-
-
 	
 }
+
+
 
 /*.show-foot div {
 	background-color: #F8F8F8;
@@ -194,8 +200,15 @@ center {
 }
 
 .contactInfo {
-	margin: 2px;
+	margin: 0px;
+
 }
+
+.copyright {
+			margin-bottom: 0px;
+			padding: 5px;
+		}
+
 
 /*===  media queries  ===*/
 
@@ -222,7 +235,10 @@ center {
 			font-size: 20px;
 		}
 
-}
+
+
+
+
 
 
 .sellText {
@@ -276,14 +292,15 @@ center {
     bottom: 190px;
     
     font-size: 35px;
-    color: black;
+    color: #565454;
     font-family: 'Rock Salt', Sans-Serif;
     text-align: center;
+    z-index: 1;
 }
 
 .contactImg {
 	border-radius: 40px;
-	padding-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 
